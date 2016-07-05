@@ -26,7 +26,7 @@ var $day3table = $('#table3');
                 "date": "",
                 "time": "9:00 - 10:00",
                 "activity": '<p class="text-warning">Lecture 1 : Introduction to Data Science and Machine Learning</p>',
-                "facilitator": 'Neil Lawrence <br> <b>Materials:</b> <a href="#">Slides</a>, <a href="#">Other References</p></a>'
+                "facilitator": 'Neil Lawrence <br> <b>Materials:</b> <a href="http://inverseprobability.com/mlai2015/">Reference materials</p></a>'
             },
             {
                 "date": "",
@@ -38,7 +38,7 @@ var $day3table = $('#table3');
                 "date": "",
                 "time": "10:30 - 12:00",
                 "activity": "Lecture 1 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="#">Code</a>, <a href="#">Dataset</p></a>'
+                "facilitator": "All facilitators"
             },
             {
                 "date": "",
@@ -49,8 +49,8 @@ var $day3table = $('#table3');
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": "Lecture 2",
-                "facilitator": "Mike Smith"
+                "activity": "Lecture 2 : Introduction to Classification",
+                "facilitator": "Mike Smith <br> <b>Materials:</b> <a href='https://lionfish0.github.io/Classification_talk/'>Slides</a>"
             },
             {
                 "date": "",
@@ -61,8 +61,8 @@ var $day3table = $('#table3');
             {
                 "date": "",
                 "time": "14:00 - 15:20",
-                "activity": "Lecture 2 Practice Session",
-                "facilitator": "All facilitators"
+                "activity": "Lecture 2 Practice Session : Classification",
+                "facilitator": "All facilitators <br> <b>Materials:</b> <a href='https://github.com/lionfish0/Classification_talk/blob/master/ipython/Classification.ipynb'>Code</a>"
             },
             {
                 "date": "",
@@ -78,9 +78,15 @@ var $day3table = $('#table3');
             },
             {
                 "date": "",
-                "time": "15:30 - 16:30",
-                "activity": "Lecture 3",
-                "facilitator": "Ricardo Andrade/Andreas Damianou"
+                "time": "15:30 - 16:00",
+                "activity": "Lecture 3A: Working with spatial data",
+                "facilitator": "Ricardo Andrade <br> <b>Materials:</b> <a href='downloads/geostats_03.pdf'>slides</a>"
+            },
+            {
+                "date": "",
+                "time": "16:00 - 16:30",
+                "activity": "Lecture 3B: From raw data to meaningful features",
+                "facilitator": "Andreas Damianou <br> <b>Materials:</b> <a href='http://adamian.github.io/talks/Kampala_DSA_Features_lecture.pdf'>Slides</a>, <a href='http://adamian.github.io/talks/Kampala_DSA_features.ipynb'>Lab</a>"
             },
             {
                 "date": "",
@@ -104,8 +110,8 @@ $(function () {
             {
                 "date": "",
                 "time": "9:00 - 10:00",
-                "activity": '<p class="text-warning">Lecture 4 : Data wrangling with Pandas</p>',
-                "facilitator": 'Martin Mubangizi <br> <b>Materials:</b> <a href="#">Notebook</a>, <a href="#">Other References</p></a>'
+                "activity": '<p class="text-warning">Lecture 4 : Cleaning and mapping data with Pandas & GeoPandas </p>',
+                "facilitator": "Martin Mubangizi"
             },
             {
                 "date": "",
@@ -117,7 +123,7 @@ $(function () {
                 "date": "",
                 "time": "10:30 - 12:00",
                 "activity": "Lecture 4 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="#">Code</a>, <a href="#">Dataset</p></a>'
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="/downloads/Martin-DSA2016Presentation1.ipynb">Notebook</a>, <a href="/downloads/data-martin.zip">Data</p></a>'
             },
             {
                 "date": "",
@@ -128,8 +134,8 @@ $(function () {
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": "Lecture 5",
-                "facilitator": "John Quinn"
+                "activity": 'Lecture 5: Classification Continued<br><a href="slides-classification-part2">Slides</a>',
+                "facilitator": 'John Quinn'
             },
             {
                 "date": "",
@@ -140,8 +146,8 @@ $(function () {
             {
                 "date": "",
                 "time": "14:00 - 15:20",
-                "activity": "Lecture 5 Practice Session",
-                "facilitator": "All facilitators"
+                "activity": 'Classification Practice Session: Malaria detection.',
+                "facilitator": 'All facilitators<br><b>Materials:</b> <a href="downloads/Malaria classification example.ipynb">Code</a>, <a href="downloads/malaria-classification-example.npz">Dataset</p></a>'
             },
             {
                 "date": "",
@@ -158,14 +164,14 @@ $(function () {
             {
                 "date": "",
                 "time": "15:30 - 16:30",
-                "activity": "Lecture 6",
+                "activity": '<p class="text-warning"> Lecture 6: Data Exploration and Visualization </p>',
                 "facilitator": "Ernest Mwebaze"
             },
             {
                 "date": "",
                 "time": "16:30 - 18:00",
                 "activity": "Lecture 6 Practice Session",
-                "facilitator": "All facilitators"
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Data Exploration materials.zip">Notebook & Code</a>'
             }
         ];
         $day2table.bootstrapTable({data: day2data});
@@ -182,8 +188,8 @@ $(function () {
             {
                 "date": "",
                 "time": "9:00 - 10:00",
-                "activity": '<p class="text-warning">Lecture 7 </p>',
-                "facilitator": 'Moustapha Cisse<br> <b>Materials:</b> <a href="#">Slides</a>, <a href="#">Other References</p></a>'
+                "activity": '<p class="text-warning">Lecture 7: Text Mining  </p>',
+                "facilitator": "Fred Kiwanuka"
             },
             {
                 "date": "",
@@ -195,7 +201,7 @@ $(function () {
                 "date": "",
                 "time": "10:30 - 12:00",
                 "activity": "Lecture 7 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="#">Code</a>, <a href="#">Dataset</p></a>'
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Fred-UgElections.ipynb">Code</a>, <a href="downloads/data-Fred.zip">Dataset</p></a>'
             },
             {
                 "date": "",
@@ -219,7 +225,7 @@ $(function () {
                 "date": "",
                 "time": "14:00 - 15:20",
                 "activity": "Lecture 8 Practice Session",
-                "facilitator": "All facilitators"
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Ciira-model_selection.ipynb">Notebook</a>'
             },
             {
                 "date": "",
