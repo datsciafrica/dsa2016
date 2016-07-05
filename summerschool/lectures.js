@@ -212,7 +212,7 @@ $(function () {
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": "Model Selection",
+                "activity": '<a href="downloads/model_selection.pdf">Model Selection</a>',
                 "facilitator": "Ciira Maina"
             },
             {
