@@ -1,51 +1,93 @@
 # Site settings
-title: Data Science Africa, Kampala
-email: m.t.smith@sheffield.ac.uk
-banner: "banner.png"
+title: Data Science Africa
+location: Kampala, Uganda
+year: 2016
+email: info@datascienceafrica.org
+
+banner: Kampala_ug.jpg
 description: > # this means to ignore newlines until "baseurl:"
   The 2016 Data Science Africa summer school held at Makerere University.
 baseurl: "/dsa2016" # the subpath of your site, e.g. /blog/
-#url: "to do" # the base hostname & protocol for your site
+url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
+
 twitter_username: datsciAfrica
 logo_url: img/logo.png
-#github_username:  SheffieldML
-#facebook_page: gaussianprocesssummerschool
+github_username:  datsciafrica
 
-# youtube:
-  # height: 315
-  # width: 560
+video:
+  height: 315
+  width: 560
+
+school:  
+  name: Data Science in Africa School
+  shortname: DSA2016
+  location: Makerere University, Kampala, Uganda
+  googleformid: 5zoTw1jS6w
+  dates:		
+  - 2016-06-27
+  - 2016-06-28
+  - 2016-06-29
+  registration:
+    deadline: 2016-06-06
+    open: False
+  draft: False # set to Y if the programme is draft only.
+  roles:
+  - {type: Convener, name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
+  - {type: Organizer, name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  - {type: Organizer, name: Michael T. Smith, url: "http://www.michaeltsmith.org"}
+  - {type: Organizer, name: John Quinn, url: "http://air.ug/~jquinn"}
+  - {type: Organizer, name: Ciira Maina}
+  - {type: Organizer, name: Andreas Damianou}
+  - {type: Organizer, name: Ricardo Andrade}
+  - {type: Organizer, name: Neil Lawrence, url: "http://inverseprobability.com"}
 
 conference:
+  shortname: DSA2016
+  theme: > # whatever comes from here to hosts:
+    <p>Using data science to monitor and achieve the global goals in Africa</p>
+    <img src="/dsa2016/img/global_goals.png" style="height:100px">
   hosts:
-  organizers:
-  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
-  - {name: Mike Smith, url: "http://www.michaeltsmith.org"}
-  - {name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
-  - {name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
-  - {name: John Quinn, url: "http://air.ug/~jquinn"}
-  - {name: Mike Croucher, url: "http://www.walkingrandomly.com"}
-  name: Data Science Africa Summer School 2016
-  location: Makerere University, Uganda
-  year: 2016
-  month: June, July
+  roles:
+  - {type: General Chair, name: Dina Machuve, url: "http://www.nm-aist.ac.tz"}
+  - {type: Program Chair, name: Ciira Maina, url: "https://sites.google.com/site/cwamainadekut/"}
+  name: Data Science in Africa Workshop 
+  location: Pulse Lab, Kampala, Uganda
+  googleformid: Et8ztKOQmo
+  hosts:
+  roles:
+  - {type: Program Chair, name: John Quinn, url: "http://air.ug/~jquinn"}
+  - {type: Program Chair, name: Ernest Mwebaze, url: "http://air.ug/~emwebaze"}
+  - {type: Program Chair, name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  registration:
+    deadline: 2016-06-06
+    open: False
   # add other days here for them to appear
   dates:	
-  - {date: 26, day: Sunday, month: June, year: 2016}
-  - {date: 27, day: Monday, month: June, year: 2016}
-  - {date: 28, day: Tuesday, month: June, year: 2016}
-  - {date: 29, day: Wednesday, month: June, year: 2016}
-  - {date: 30, day: Thursday, month: June, year: 2016}
-  - {date: 1, day: Friday, month: July, year: 2016}
-  - {date: 2, day: Saturday, month: July, year: 2016}
-  draft: Y # set to Y if the programme is draft only.
+  - 2016-06-30
+  - 2016-07-01
+  organizers:
+  - {logo: AI.png, name: "AI Research, Makerere University"}
+  - {logo: sheffield.png, name: University of Sheffield}
+  - {logo: makerere.png, name: Makerere University}
+  - {logo: plklogo.png, name: Pulse Lab Kampala}
+  - {logo: un_uganda1.png}
+  - {logo: dedan_kimathi.jpg, name: Dedan Kimathi University of Technology}
+  sponsors: 
+  - {logo: facebook.png, name: "Facebook"}  
+  - {logo: google.png, name: "Google"}
 
-# Hero
-hero:
-    # hero_img: hero.jpg
-    hero_img: gazzelle.jpg
-    hero_img2: Kampala_ug.jpg
-    hero_title: Data Science
-    hero_description: Conference website.
+feedback: 1q2Mdn-pJsync17Tvb-KtXY2DBNbeWHgV6__d6Ugym5M
+
+previous:
+  url: https://sites.google.com/site/dekutdatascienceworkshop2015/
+  text: | # From here to "school:"
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+
+                        ">Previous: Data Science Africa 2015</div>
+    <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
+    <div>Nyeri, Kenya</div>
 
 exclude: [
     package.json,
