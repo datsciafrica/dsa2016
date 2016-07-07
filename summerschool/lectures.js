@@ -80,7 +80,7 @@ var $day3table = $('#table3');
                 "date": "",
                 "time": "15:30 - 16:00",
                 "activity": "Lecture 3A: Working with spatial data",
-                "facilitator": "Ricardo Andrade <br> <b>Materials:</b> <a href='downloads/geostats_03.pdf'>slides</a>"
+                "facilitator": "Ricardo Andrade <br> <b>Materials:</b> <a href='../downloads/geostats_03.pdf'>slides</a>"
             },
             {
                 "date": "",
@@ -123,7 +123,7 @@ $(function () {
                 "date": "",
                 "time": "10:30 - 12:00",
                 "activity": "Lecture 4 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="/downloads/Martin-DSA2016Presentation1.ipynb">Notebook</a>, <a href="/downloads/data-martin.zip">Data</p></a>'
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="../downloads/Martin-DSA2016Presentation1.ipynb">Notebook</a>, <a href="../downloads/data-martin.zip">Data</p></a>'
             },
             {
                 "date": "",
@@ -147,7 +147,7 @@ $(function () {
                 "date": "",
                 "time": "14:00 - 15:20",
                 "activity": 'Classification Practice Session: Malaria detection.',
-                "facilitator": 'All facilitators<br><b>Materials:</b> <a href="downloads/Malaria classification example.ipynb">Code</a>, <a href="downloads/malaria-classification-example.npz">Dataset</p></a>'
+                "facilitator": 'All facilitators<br><b>Materials:</b> <a href="../downloads/Malaria classification example.ipynb">Code</a>, <a href="../downloads/malaria-classification-example.npz">Dataset</p></a>'
             },
             {
                 "date": "",
@@ -171,7 +171,7 @@ $(function () {
                 "date": "",
                 "time": "16:30 - 18:00",
                 "activity": "Lecture 6 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Data Exploration materials.zip">Notebook & Code</a>'
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="../downloads/Data Exploration materials.zip">Notebook & Code</a>'
             }
         ];
         $day2table.bootstrapTable({data: day2data});
@@ -201,7 +201,7 @@ $(function () {
                 "date": "",
                 "time": "10:30 - 12:00",
                 "activity": "Lecture 7 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Fred-UgElections.ipynb">Code</a>, <a href="downloads/data-Fred.zip">Dataset</p></a>'
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="../downloads/Fred-UgElections.ipynb">Code</a>, <a href="../downloads/data-Fred.zip">Dataset</p></a>'
             },
             {
                 "date": "",
@@ -212,7 +212,7 @@ $(function () {
             {
                 "date": "",
                 "time": "12:00 - 13:00",
-                "activity": '<a href="downloads/model_selection.pdf">Model Selection</a>',
+                "activity": '<a href="../downloads/model_selection.pdf">Model Selection</a>',
                 "facilitator": "Ciira Maina"
             },
             {
@@ -225,7 +225,7 @@ $(function () {
                 "date": "",
                 "time": "14:00 - 15:20",
                 "activity": "Lecture 8 Practice Session",
-                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="downloads/Ciira-model_selection.ipynb">Notebook</a>'
+                "facilitator": 'All facilitators <br> <b>Materials:</b> <a href="../downloads/Ciira-model_selection.ipynb">Notebook</a>'
             },
             {
                 "date": "",
