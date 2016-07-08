@@ -14,9 +14,16 @@ twitter_username: datsciAfrica
 logo_url: img/logo.png
 github_username:  datsciafrica
 
-video:
-  height: 315
-  width: 560
+previous:
+  url: /dsa2015/
+  text: | # From here to "school:"
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+
+                        ">Previous: Data Science Africa 2015</div>
+    <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
+    <div>Nyeri, Kenya</div>
 
 school:  
   name: Data Science in Africa School
@@ -78,16 +85,6 @@ conference:
 
 feedback: 1q2Mdn-pJsync17Tvb-KtXY2DBNbeWHgV6__d6Ugym5M
 
-previous:
-  url: https://sites.google.com/site/dekutdatascienceworkshop2015/
-  text: | # From here to "school:"
-    <div class="" style="
-                        font-weight: bold; 
-                        font-size: 18px;
-
-                        ">Previous: Data Science Africa 2015</div>
-    <div>June 18<sup>th</sup>  - June 19<sup>th</sup> 2015</div>
-    <div>Nyeri, Kenya</div>
 
 exclude: [
     package.json,
@@ -104,4 +101,8 @@ sass:
 
 # Build settings
 markdown: kramdown
+
+video:
+  height: 315
+  width: 560
 
