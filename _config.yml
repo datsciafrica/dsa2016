@@ -102,7 +102,10 @@ sass:
 # Build settings
 markdown: kramdown
 
+analytics:
+  google:
+    tracking_id: UA-80484960-1
+
 video:
   height: 315
   width: 560
-
